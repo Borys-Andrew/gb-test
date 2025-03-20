@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: system-ui, Inter, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --background: #ffffff;
+  --foreground: #000000;
+  --button-background: #b5b8ff;
+  --button-icon-hover: #b5b8ff;
+  --button-icon-active: #9da0fb;
+  --button-active: #1d28ff;
+  --button-hover: #1d28ff;
+  --input-focus: #9da0fb;
+
+  --select-hover: #9da0fb;
+  --bg-table-row: #efefef;
+
+  --radius: 0.625rem;
+  --border-color: #e0e0e0;
+  --ring-color: rgba(0, 0, 0, 0.5);
+
+  --image-bg: #aaa9a9;
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  /* max-width: 1382px; */
+  background-color: var(--background);
+  color: var(--foreground);
+  box-sizing: border-box;
+}
+
+@layer base {
+  * {
+    border-color: var(--border-color);
+    outline-color: var(--ring-color);
+  }
+}
+
+.fixed-table {
+  table-layout: fixed;
+  width: 100%;
+}
