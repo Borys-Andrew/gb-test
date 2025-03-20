@@ -1,16 +1,10 @@
-// import { User } from "@/types";
 import { User } from "@/types";
-import axios, { AxiosResponse } from "axios";
+import axios from "axios";
 
 axios.defaults.baseURL = "https://jsonplaceholder.typicode.com";
 
-export const getUsers = async (): Promise<AxiosResponse<User[]>> => {
-  try {
-    const res = await axios.get("/users");
+export const getUsers = async (): Promise<User[]> => {
+  const res = await axios.get("/users");
 
-    return res.data;
-  } catch (error) {
-    throw error;
-  }
+  return res.data;
 };
-console.log("🚀 ~ getUsers ~ getUsers:", getUsers());

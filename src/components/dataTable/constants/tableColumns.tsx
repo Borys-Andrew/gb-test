@@ -116,30 +116,6 @@ export const tableColumns: ColumnDef<User>[] = [
     ),
     accessorFn: (row) => `${row.company?.name}`,
   },
-  // {
-  //   id: "delivery",
-  //   accessorKey: "delivery",
-  //   header: ({ column }) => (
-  //     <div
-  //       className="flex gap-1 items-center justify-start px-0 w-full cursor-pointer"
-  //       onClick={column.getToggleSortingHandler()}
-  //     >
-  //       <span>Delivery</span>
-  //       <span>
-  //         {" "}
-  //         {column.getIsSorted() === "asc" ? (
-  //           <ChewronDownIcon className="rotate-180" />
-  //         ) : column.getIsSorted() === "desc" ? (
-  //           <ChewronDownIcon />
-  //         ) : (
-  //           <FilterIcon />
-  //         )}
-  //       </span>
-  //     </div>
-  //   ),
-  //   accessorFn: (row) =>
-  //     `${row.address?.street} ${row.address?.city} ${row.address?.zipcode}`,
-  // },
   {
     id: "delivery",
     accessorKey: "delivery",
