@@ -1,54 +1,33 @@
-# React + TypeScript + Vite
+# CRM Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple CRM system dashboard for managing users.
 
-Currently, two official plugins are available:
+## 🎯 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a list of users (from API).
+- Real-time search by name.
+- Display users in a table or card layout.
+- Pagination, scroll, and navigation.
+- Edit and delete users.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React 18 (Vite)
+- TailwindCSS
+- Axios
+- React Hook Form
+- Radix UI
+- Lucide React
+- @tanstack/react-table
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+## 📞 Contact Information
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Feel free to reach out for collaboration or job opportunities!
 
-```js
-// eslint.config.js
-import reactDom from "eslint-plugin-react-dom";
-import reactX from "eslint-plugin-react-x";
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    "react-x": reactX,
-    "react-dom": reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs["recommended-typescript"].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+- 📱 **Phone**: +38-073-100-74-63
+- 📧 **Email**: [borysandrew9@gmail.com](mailto:borysandrew9@gmail.com)
+- 🔗 **LinkedIn**: [Andrew Borys](https://www.linkedin.com/in/andrew-borys-233365200/)
+- 💬 **Telegram**: [@BorysAndrew](https://t.me/BorysAndrew)
+- 💻 **GitHub**: [Andrew-Borys](https://github.com/Andrew-Borys)
+- 🌍 **Location**: Lviv, Ukraine
+- 👨‍💻 Open to work in office, hybrid, or remotely.
